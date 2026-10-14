@@ -279,9 +279,9 @@ img {
 .btn-book {
   display: inline-block;
 
-  background-color: #ffffff;
-  color: #120e2e;
-
+  background-color: #d4af37;
+  color: #1a1a1a;
+  border: 2px solid #d4af37;
   padding: 14px 28px;
   border-radius: 4px;
 
@@ -296,9 +296,11 @@ img {
 }
 
 .btn-book:hover {
-  background-color: #f3f4f6;
+  background-color: #b8962e;
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border-color: #b8962e;
+  color: #1a1a1a;
 }
 
 .cards-grid {
