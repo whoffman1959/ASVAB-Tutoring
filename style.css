@@ -282,12 +282,14 @@ img {
   background-color: #d4af37;
   color: #1a1a1a;
   border: 2px solid #d4af37;
-  padding: 14px 28px;
+  padding: 12px 18px;
   border-radius: 4px;
 
   text-decoration: none;
   font-weight: 600;
-  font-size: 0.95rem;
+  font-size: 0.88rem;
+  white-space: normal;
+  text-align: center;
 
   transition:
     transform 0.3s ease,
@@ -1186,7 +1188,6 @@ img {
   .btn-book {
     padding: 12px 18px;
     font-size: 0.88rem;
-    white-space: nowrap;
   }
 
   .cards-grid {
@@ -1219,4 +1220,23 @@ img {
   .contact-heading p {
     font-size: 0.95rem;
   }
+}
+
+.wyzant-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.btn-book-white {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: #1a1a1a;
+}
+
+.btn-book-white:hover {
+  background-color: #e8e8e8;
+  border-color: #e8e8e8;
+  color: #1a1a1a;
 }
